@@ -1,0 +1,31 @@
+
+:root {
+    /* Color Tokens */
+    --color-bg-body: #ADD8E6;
+    --color-bg-header: #151590;
+    --color-bg-divider: #1453b1;
+    --color-text-main: #161f29;
+    --color-text-header: #ffffff;
+    --color-link: lightblue;
+
+    /* Font Tokens */
+    --font-heading: "Comic Sans MS", sans-serif;
+    --font-body: Inter, sans-serif;
+
+    /* Spacing Tokens */
+    --spacing-gap-large: 25px;
+    --spacing-gap-medium: 16px;
+    --spacing-gap-small: 10px;
+
+    /* Sizing Tokens */
+    --image-width: 150px;
+}
+
+body.dark-mode {
+    --color-bg-body: #00001a;
+    --color-bg-header: #101070;
+    --color-bg-divider: #1a1a88;
+    --color-text-main: #e8ffff;
+    --color-text-header: #ffffff;
+    --color-link: #76d6ff;
+}
